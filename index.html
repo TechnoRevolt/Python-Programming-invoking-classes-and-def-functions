@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>HACKSTER</title>
+</head>
+<body class = "gothic">
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="#about.html">About</a>
+  <a href="#contact.html">Keep In Touch</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<div class = "openingsalvo">
+  <p> We are gearing towards the unprecedented technological advances in the field of information technology which depicts the current decade as the new Industrial Revolution but with the extensive and intensive application of computers for automating everything from laundry to buying basic necessities.There is no doubt, the next decade's economy and the society itself will evolve according to the computer technology that will be introduced during that epoch.Most recently, technological advances are propelling rapidly which are fueled by new disoveries and programming laguages that some societies across the globe cound keep pace with. While 3 - D has been here with us for quite some time yet it remains in the domain  of the artists and hobbyists. Not only that they are so slow and indeed are so expensive.Just 2 years ago, a Boston-area startup, Desktop Metal, began to ship its first metal prototyping machines in December . It plans to begin selling larger machines, designed for manufacturing, that are 100 times faster than older metal printing methods.<br><br>
+    AI (Artificial Intelligence) had been the biggest talk in magazines,tabloids , mass media outlets and among the others but it was so expensive and concentrated on the hands of the few elites.However, the technological boom created huge data that a group of human beings can not handle such huge data posted on the internet.Big Tech Companies found a solution, machine-learning tools based in the cloud are bringing AI to a far broader audience. So far, Amazon dominates cloud AI with its AWS subsidiary. Google is challenging that with TensorFlow, an open-source AI library that can be used to build other machine-learning software. Recently Google announced Cloud AutoML, a suite of pre-trained systems that could make AI simpler to use.
+With the advent of these advances, this Home Page caters the needs of the would be programmers who are will to learn the most basic programming skills to the most complex.So wthout further ado, let us begin learning from scratch towards the best.
+  </p>
+</div>
+
+<div class = "codixify">
+  <p>LEARNING PROGRAMMING IN PYTHON.</p>
+</div>
+
+<div class = "logo">
+  <img class = "snake" src = "Python-Logo.jpg">
+</div>
+
+<div class = "study">
+  <p>
+    A)PYTHON FUNCTION<br><br>
+Function in Python is defined by a def statement.It consists related statements that perform multiple tasks.It breaks a program into smaller chunks , as a program grows larger; it helps organize it to be readable and reusable.<br><br>
+1)Accessing the body within the function.<br><br>
+def revolution():<br>
+    print('The revolution in Russia on 1917 was the greatest human upheaval that toppled down the Monarchy.')<br><br>
+
+revolution()<br>
+The revolution in Russia on 1917 was the greatest human upheaval that toppled down the Monarchy.<br><br>
+Anatomy of a function.<br>
+def is the statement.<br>
+revolution is the name of the function.<br>
+()The parameter list.<br>
+Print('')The body of the function.<br><br><br>
+
+2)Using the the return keyword.<br><br>
+def revolution():<br>
+    return('The revolution in Russia on 1917 was the greatest human upheaval that toppled down the Monarchy.')<br><br>
+
+print(revolution())<br>
+The revolution in Russia on 1917 was the greatest human upheaval that toppled down the Monarchy.<br><br><br>
+
+3)Placing a data within the parameter list.<br><br>
+def revolution(revolutionaries):<br>
+    print(revolutionaries + 'the revolution in Russia on 1917 was the greatest human upheaval that toppled down the Monarchy.')<br><br>
+
+revolution('The marxists led ')<br>
+The marxists led the revolution in Russia on 1917 was the greatest human upheaval that toppled down the Monarchy.<br><br>
+The revolution is the name of the function with the revolutionaries as the argument or parameter.'The marxists led' is a statement which corresponds with the revolutionaries.<br><br><br>
+
+4)Loading multiple data inside the parameter list.<br><br>
+def hello(name, age):<br>
+    print('Hi ' + name + ' I am glad to meet you ' + age + ' and being with that age means agility and versatility.')<br><br>
+
+hello(' Gabrielle,',str(20))<br>
+Hi  Gabrielle, I am glad to meet you 20 and being with that age means agility and versatility.<br><br>
+Notice that the word str is prefixed before the 20 to convert it into a string otherwise Python will render an error message.The other way to convert it into a string by simply closing it with singe quotation marks like '20'.<br><br><br>
+
+5)Working with numerical values and using mathematical operations for calculation.<br><br>
+def add(a, b):<br>
+    return a + b<br><br>
+
+a = add(10,10)<br>
+print(a)<br>
+20<br><br>
+using a variable is necessary to show the result of the sum of the 2 numbers.Changing the mathematical operators in the return statement like -, * or / will change the result according to the operator being used.<br><br><br>
+
+6)Another method of storing data and manipulating the print statement.<br><br>
+def hoax(amount,name):<br><br>
+    print(amount + ' was robbed from the taxes of the people.')<br>
+    print('Ferdinand Marcos' + name)<br><br>
+
+hoax('Billions of dollars',' was the greatest thief in the history of mankind.')<br><br>
+
+Billions of dollars was robbed from the taxes of the people.<br>
+Ferdinand Marcos was the greatest thief in the history of mankind.<br><br><br>
+
+7)Another method of storing data within the parameter list.<br><br>
+def add (a = 5,b = 5):<br>
+    return a + b<br><br>
+
+a = add()<br>
+print(a)<br><br>
+
+10<br><br><br>
+
+8)Using if , elif and else statetemnt in a body.<br><br>
+def add(a, b):<br>
+    if a == 10:<br>
+        return a + b<br><br>
+
+    elif b == 10:<br>
+        return a + b<br><br>
+
+    else:<br>
+        print('Look for another lady.')<br><br>
+
+a = add(10,10)<br>
+print(a)<br><br>
+
+a = add(5,5)<br>
+
+20<br><br>
+Look for another number.<br><br><br>
+
+9)Creating multiple def functions.<br><br>
+def cat(age,name):<br><br>
+
+    return age + name<br><br>
+
+a = cat('Pillow my cat is 5 years old. ','She is too old to snatch Jim to be her husband.')<br>
+print(a)<br><br>
+
+def Imee(snatcher):<br>
+    print('But I knew a woman named Imee, she snatched a man to be his husband.' + snatcher)<br>
+Imee('She is very sick!')<br><br>
+
+
+Pillow my cat is 5 years old. She is too old to snatch Jim to be her husband.<br>
+But I knew a woman named Imee, she snatched a man to be his husband.She is very sick!<br><br><br>
+
+10)Creating a program to calculate the original price added with VAT(Value Added Tax) and inflation rate.<br><br>
+First create a discriptive list with multiple variables that every value corresponds with each item within the list.<br>
+price, vat, inflation = [1000, .012, .006]<br><br>
+
+#To obtain the price added with vat, multiply the price with the vat then add the result with it.<br><br>
+
+def result():<br>
+    return price * vat<br><br>
+
+rate = result()<br>
+print (str(rate) + ' is the value that should be added from the original price.')<br><br>
+
+#It is not necessary to store data within the parameter list since the arguments are stroed in the multiple variables that was established.<br><br>
+#the output of the program is:<br>
+#12.0 is the value that should be added from the original price.<br><br>
+
+#Since the product from the price and vat has been determined and so it should be added to the original price to present the new price.<br><br>
+
+def new_price():<br>
+    return price + rate<br><br>
+
+valued_price = new_price()<br>
+print(str(valued_price) + ' is the new price added injected with the pocket-tearing  the value added tax.')<br><br>
+
+#But the price is not yet final to be paid at the market's cashier since inflation rate must also be calculated.<br><br>
+
+def inflated_price():<br>
+    return valued_price * inflation<br><br>
+
+bloated_price = inflated_price()<br>
+print(str(bloated_price) + ' is another additional payment that tears the wallet to pieces.')<br><br>
+
+def final_price():<br>
+    return valued_price + bloated_price<br><br>
+
+a = final_price()<br>
+print(str(a) + " is the over all payment that should be paind in the market's cashier.")<br><br>
+
+12.0 is the value that should be added from the original price.<br>
+1012.0 is the new price added injected with the pocket-tearing  the value added tax.<br>
+6.072 is another additional payment that tears the wallet to pieces.<br>
+1018.072 is the over all payment that should be paind in the market's cashier.<br><br><br>
+
+B)PYTHON CLASSES<br><br>
+A Class in python is an object constructor<br><br>
+
+1)Accessing the data in a class.<br>
+class Sample:<br>
+    x = 5<br><br>
+
+a = Sample()<br>
+print(a.x)<br>
+The outcome is 5<br><br><br>
+
+2)Storing string in variables in a class.<br><br>
+class Dinosaurs:<br>
+    a = 'T-rex is the most powerful among the reptiles.'<br>
+    b = 'Duterte is the father of all the reptile - eating reptiles.'<br><br>
+
+Digong = Dinosaurs<br><br>
+print(Digong.a)<br>
+print(Digong.b)<br><br>
+
+T-rex is the most powerful among the reptiles.<br>
+Duterte is the father of all the reptile - eating reptiles.<br><br><br>
+
+3)Using the prin function in parentheses.<br><br>
+class AncientCivilization:<br>
+    print('Iraq used to be the cradle of the ancient civilization.')<br><br>
+
+AncientCivilization()<br>
+Iraq used to be the cradle of the ancient civilization.<br><br><br>
+
+4)Class inheritors.<br><br>
+class Ancient:<br>
+    print('We evolved from our glorious past.')<br><br>
+
+class Persia(Ancient):<br>
+    print('One of the greatest ancient civilizations that we owed our education.')<br><br>
+
+class Mesopotamia(Ancient):<br>
+    print('Considered to be the cradle of civilization that spread all through out the European continent.')<br><br>
+
+Ancient()<br><br>
+
+We evolved from our glorious past.<br>
+One of the greatest ancient civilizations that we owed our education.<br>
+Considered to be the cradle of civilization that spread all through out the European continent.<br><br><br>
+5)Converting string into a list with multiple strings.<br><br>
+class Split:<br>
+        b = 'Peter tumbles down with a pail of water.'<br>
+        b.split()<br><br>
+
+a = Split()<br>
+print(a.b.split())<br><br>
+
+['Peter', 'tumbles', 'down', 'with', 'a', 'pail', 'of', 'water.']<br><br>
+
+6) OR<br><br>
+class Split:<br>
+        b = 'Peter tumbles down with a pail of water.'<br>
+        c = b.split()<br><br>
+
+a = Split()<br>
+print(a.c)<br><br>
+
+['Peter', 'tumbles', 'down', 'with', 'a', 'pail', 'of', 'water.']<br><br><br>
+
+7)counting the numbers of strings within the list.<br><br>
+class Split:<br><br>
+        b = 'Peter tumbles down with a pail of water.'<br>
+        c = b.split()<br>
+        d = len(c)<br><br>
+a = Split()<br>
+print(a.c)<br>
+print(a.d)<br><br>
+
+['Peter', 'tumbles', 'down', 'with', 'a', 'pail', 'of', 'water.']<br>
+8<br><br><br>
+
+8)Complex Python Programming.<br><br>
+
+C)DEF AND CLASSES COMBINED<br><br>
+1)Grabbing the information in a class method and def function.<br><br>
+class Fishes:<br>
+    def Tuna(self):<br>
+        print('They are deep sea divers and live in deeper oceans for existence.')<br><br>
+
+a = Fishes()<br>
+a.Tuna()<br><br>
+
+
+They are deep sea divers and live in deeper oceans for existence.<br><br><br>
+
+2)Class inheritance or inheritors.<br><br>
+class Fishes:<br>
+    def habitat(self):<br>
+        print('Some of the fishes live in lakes, oceans or rivers.')<br><br>
+
+class Tuna(Fishes):<br>
+    def specie(self):<br>
+        print('The Tuna population is dwindling due to pollution and overfishing.')<br><br>
+
+class Tilapia(Fishes):<br>
+    def life(self):<br>
+        print('A tilapia can grow bigger if placed in a pond.')<br><br>
+
+a = Fishes()<br>
+a.habitat()<br><br>
+
+b = Tuna()<br>
+b.specie()<br><br>
+
+c = Tilapia()<br>
+c.life()<br><br>
+
+Some of the fishes live in lakes, oceans or rivers.<br>
+The Tuna population is dwindling due to pollution and overfishing.<br>
+A tilapia can grow bigger if placed in a pond.<br><br><br>
+
+3)Another method of accessing the information within classes.<br><br>
+class Fishes:<br>
+    def specie(self):<br>
+        print("Tuna's population dwindles due to overfishing.")<br>
+        print('Water pollution also hinders the growth of its population.')<br><br>
+
+class Sharks(Fishes):<br>
+    def life(self):<br>
+        print('Sharks usually live in deeper oceans.')<br><br>
+
+
+a = Sharks()<br>
+a.life()<br>
+a.specie()<br><br>
+Sharks usually live in deeper oceans.<br>
+Tuna's population dwindles due to overfishing.<br>
+Water pollution also hinders the growth of its population.<br><br><br>
+
+D)DEF INIT FUNCTION:<br><br>
+1)Constructing a simple class with def __init__()<br><br>
+class Reptiles:<br>
+    def __init__(self,name,capacity,habitat):<br>
+        self.name = name<br>
+        self.capacity = capacity<br>
+        self.habitat = habitat<br><br>
+
+a = Reptiles('Crocodiles!', 'They rob all the money of the taxpayers.','They live in the house of congress and malacañang palace.')<br>
+print(a.name)<br>
+print(a.capacity)<br>
+print(a.habitat)<br><br>
+
+
+Crocodiles!<br>
+They rob all the money of the taxpayers.<br>
+They live in the house of congress and malacañang palace.<br><br><br>
+
+2)Horizontal printing.<br><br>
+class Anaconda:<br>
+    def  __init__(self,who,crimes,diseases):<br>
+        self.who = who<br>
+        self.crimes = crimes<br>
+        self.diseases = diseases<br><br>
+
+a = Anaconda('They are Called Filipino Politicians.','They murdered poor Filipinos through hunger.','Their corruption is contagious and the deadliest virus.')<br>
+print(a.who,a.crimes,a.diseases)<br><br>
+
+They are Called Filipino Politicians. They murdered poor Filipinos through hunger. Their corruption is contagious and the deadliest virus.<br><br><br>
+
+3)Interchanging data through the dynamism of inheritance.<br><br>
+class Corrupt:<br>
+    def __init__(self,name,position):<br>
+        self.name = name<br>
+        self.position = position<br><br>
+
+a = Corrupt('He is named Sal Panelo.','The despicable spokesperson so far.')<br><br>
+
+class Kulimbat(Corrupt):<br>
+    def  __init__(self,person,crimes):<br>
+        self.person = person<br>
+        self.crimes = crimes<br><br>
+
+b = Kulimbat('Teddy, he is called.', 'He behaves like a leech.')<br><br>
+
+print(a.position)<br>
+print(b.crimes)<br>
+print(b.person)<br><br>
+
+The despicable spokesperson so far.<br>
+He behaves like a leech.<br>
+He is named Sal Panelo.<br>
+Teddy, he is called.<br><br><br>
+
+4)Prelude to create a poem through programming.<br><br>
+class Rebels:<br>
+    def  __init__(self,place,deeds):<br>
+        self.place = place<br>
+        self.deeds = deeds<br><br>
+
+Avi_Loves_Rebels = Rebels('They graduated in top universities but they are now in rural areas serving the people.', 'Kabataan tayo na sa kanayunan.')<br><br>
+
+class Leninist:<br>
+    def __init__(self,ideology,dreams):<br>
+        self.ideology = ideology<br>
+        self.dreams = dreams<br><br>
+
+love_Me_Do = Leninist('Urban insurrection is an excellent warfare to grab political power but let we try it with our for fun.',' A leninist, like Marx and Trotsky; hopes for a world of equality.')<br><br>
+
+
+print(love_Me_Do.dreams,Avi_Loves_Rebels.place)<br>
+print(Avi_Loves_Rebels.deeds,love_Me_Do.ideology)<br><br>
+
+ A leninist, like Marx and Trotsky; hopes for a world of equality. They graduated in top universities but they are now in rural areas serving the people.<br>
+Kabataan tayo na sa kanayunan. Urban insurrection is an excellent warfare to grab political power but let we try it with our for fun.<br><br><br>
+
+5)Bonus knowledge for list.<br><br>
+duterte_traitor,treachery = [ 'We are losing our country','China is inavading us.']<br><br>
+
+a = len(duterte_traitor)<br>
+b = len(treachery)<br><br>
+
+print(a, b)<br>
+25 22<br><br><br>
+
+6)Creating multiple classes.<br><br>
+#Data calculation regarding the Extra Judicial Killings in the Philipines.<br><br>
+
+#Create a class as a primary step.<br><br>
+#Initialize the construction of the data but put nothing inside the parameter list().<br><br>
+
+class EJK:<br>
+    def __init__(self):<br>
+        self.negros = 85<br>
+        self.quezon = 125<br>
+        self.panay = 56<br>
+        self.cebu = 78<br><br>
+
+class Ages:<br>
+    def __init__(self):<br>
+        self.minors = 120<br>
+        self.adults = 240<br>
+        self.children = 45<br><br>
+
+class Sex:<br>
+    def __init__(self):<br>
+        self.male = 320<br>
+        self.female = 124<br><br>
+
+#First, access information within the classes before calculating invoking arithmetical operations.<br><br>
+a = EJK()<br>
+print(a.negros)<br><br>
+
+85<br><br>
+
+b = Ages()<br>
+print(b.minors)<br><br>
+
+120<br><br>
+
+c = Sex()<br>
+print(c.female)<br><br>
+
+124<br><br>
+
+#------------------------------------------------------------------------------------------------#<br><br>
+#Extracting the total victims of Extra Judicial Killings using a varibale to store data.<br><br>
+d = a.negros + a.cebu + a.panay + a.quezon<br>
+print(d)<br><br>
+
+344<br><br>
+
+#------------------------------------------------------------------------------------------------#<br><br>
+e = b.minors + b.adults + b.children<br>
+print(e)<br><br>
+
+405<br><br>
+
+#------------------------------------------------------------------------------------------------#<br><br>
+
+f = c.male + c.female<br>
+print(f)<br><br>
+
+444<br><br>
+
+#------------------------------------------------------------------------------------------------#<br><br>
+#Summing all up unleashing the dynamism of the usage of variables.<br><br>
+g = d + e + f<br>
+print(g)<br><br>
+
+1193<br><br><br>
+
+7)Another method of calculation.<br><br>
+class EJK():<br>
+    def __init__(self):<br>
+        self.negros = 120<br><br>
+
+class Age(EJK):<br>
+    def __init__(self):<br>
+        self.minors = 240<br><br>
+
+class Sexes(EJK):<br>
+    def __init__(self):<br>
+        self.male = 360<br><br>
+
+a = EJK()<br>
+b = Age()<br>
+c = Sexes()<br><br>
+
+print(a.negros + b.minors + c.male)<br>
+720<br><br><br>
+
+7)Creating and accesing the variables with multiple names.<br><br>
+regime_soldiers, bombs, guns = [100, 90, 130]<br>
+opposition_soldiers, improvised_guns, assassination = [100, 50, 50]<br>
+opposition_reinforcement = [200]<br><br><br>
+
+a = regime_soldiers<br>
+b = bombs<br>
+c = guns<br>
+d = opposition_soldiers<br>
+e = improvised_guns<br>
+f = assassination<br>
+g = opposition_reinforcement<br><br>
+
+def war():<br><br>
+    print('Please enter your choice here! ')<br>
+    choice = input()<br><br>
+    if choice == '1':<br>
+        print('The regime unleashed its bombs!')<br><br>
+        x = d - b<br><br>
+        print(str(x) + ' opposition soldiers left out of the 100, this is the bloodiest battle.')<br>
+        print('Enter second option to hold the ground.')<br>
+        option = input()<br>
+        if option == '2':<br><br>
+            y = str(x + g[0])<br>
+            print(y + ' Soldiers are quite enough to smash the regime into pieces.')<br>
+            z = str(a - f)<br>
+            print(str(z + ' Soldiers of the regime had been annihilated.Instigate more atttacks.'))<br>
+            x2 = str(g[0] - c)<br>
+            print(x2 + ' Out of the ' + str(210) + ' soldiers had been gunned down by the regime.')<br>
+            z2 = str(f - 50)<br>
+            print(z2 + " and nohing more had been left from the regime's forces.")<br><br>
+
+
+war()<br><br>
+
+Please enter your choice here!<br>
+1<br>
+The regime unleashed its bombs!<br>
+10 opposition soldiers left out of the 100, this is the bloodiest battle.<br>
+Enter second option to hold the ground.<br>
+2<br><br>
+210 Soldiers are quite enough to smash the regime into pieces.<br>
+50 Soldiers of the regime had been annihilated.Instigate more atttacks.<br>
+70 Out of the 210 soldiers had been gunned down by the regime.<br>
+0 and nohing more had been left from the regime's forces.<br><br><br>
+
+8)Programming with the use of def and dictionries.<br><br>
+A)Manipulation of the EJK dictionary.<br><br>
+EJK_victims = {'negros' : 85, 'minors' : 145, 'children' : 168, 'poor_filipinos' : 12000}<br>
+killed_for_bounty = {'females' : 11500, 'males' : 22400, 'lesbians' : 1500, 'homosexuals' : 8200}<br>
+slaughtered_randomly = {'farmers' : 18650, 'fishers' : 358900, 'activists' : 15800}<br>
+Phil_Population = {'total' : 116000000}<br><br>
+
+
+
+class Evaluate:<br>
+    def grab_data(self):<br><br>
+        a = EJK_victims['negros']<br>
+        b = EJK_victims['poor_filipinos']<br><br>
+        print (str(a) + ' Killed in Negros Island.')<br>
+        print (str(b) + ' Poor Filipinos murdered due to baseless suspicion.')<br><br>
+    def count_values(self):<br><br>
+        for values in EJK_victims.values():<br>
+            print(values)<br><br>
+    def total_values(self):<br><br>
+        c = sum(EJK_victims.values())<br>
+        print(c)<br><br>
+    def specific(self):<br>
+        d = EJK_victims['minors'] + EJK_victims['children']<br>
+        print(d)<br><br><br>
+
+
+analyze = Evaluate()<br>
+analyze.grab_data()<br>
+analyze.count_values()<br>
+analyze.total_values()<br>
+analyze.specific()<br><br>
+
+85 Killed in Negros Island.<br>
+12000 Poor Filipinos murdered due to baseless suspicion.<br><br>
+85<br>
+145<br>
+168<br>
+12000<br>
+12398<br>
+313<br><br><br>
+
+9)Adding the sum of 2 separate dictionaries and calculating the percentage.<br><br>
+EJK_victims = {'negros' : 85, 'minors' : 145, 'children' : 168, 'poor_filipinos' : 12000}<br>
+killed_for_bounty = {'females' : 11500, 'males' : 22400, 'lesbians' : 1500, 'homosexuals' : 8200}<br>
+slaughtered_randomly = {'farmers' : 18650, 'fishers' : 358900, 'activists' : 15800}<br>
+Phil_Population = {'total' : 116000000}<br><br>
+
+class Enumerate:<br>
+    def quantify(self):<br><br>
+        for values in killed_for_bounty.values():<br>
+            print(values)<br><br>
+
+            for values in slaughtered_randomly.values():<br>
+                print(values)<br><br>
+
+                a = sum(killed_for_bounty.values())<br>
+                print(a)<br>
+                b = sum(slaughtered_randomly.values())<br>
+                print(b)<br><br>
+                c = a + b<br>
+                print(c)<br><br>
+                d = c / Phil_Population['total'] * 100<br>
+                print(d)<br><br>
+
+
+
+assess = Enumerate()<br>
+assess.quantify()<br><br>
+
+15800<br>
+43600<br>
+393350<br>
+436950<br>
+0.37668103448275864<br><br><br>
+
+10)Creating a class with lists to be accessed through indexing.<br><br>
+cars = ['Honda', 'Toyota', 'Mitsubishi', 'Ford', 'Bentley', 'BMW', 'Mercedes Benz', 'Rolls Royce']<br>
+speed = [100, 120, 110, 210, 185, 240, 265, 320 ]<br><br>
+class Vintage:<br>
+    def velocity(self):<br><br>
+        self.x = x = speed[0]<br>
+        self.y = y = speed[1]<br>
+        print(x + y)<br><br>
+
+
+search = Vintage()<br>
+search.velocity()<br><br>
+
+220<br><br><br>
+
+11)Calculating the speed of a car using dictionaries.<br><br>
+cars_speed = {'Honda' : 100, 'Toyota' : 120, 'Mitsubishi' : 110, 'Ford' : 210, 'Bentley' : 185, 'BMW' : 240, 'Mercedes Benz' : 265, 'Rolls Royce' : 320}<br>
+distance = {'Ipil' : 132.5, 'Diplahan' : 200.5, 'Pagadian' : 267.5}<br>
+time = {'slow' : 3, 'medium' : 2.5, 'med_fast' : 2, 'fast' : 1.5, 'veryfast' : 1, 'sonic' : .30}<br><br>
+#speed = disance /time<br><br>
+class Vintage:<br>
+    def velocity(self):<br>
+     x = distance['Ipil']<br>
+     y = time['sonic']<br>
+     speed = x / y<br>
+     print(speed)<br><br>
+
+
+search = Vintage()<br>
+search.velocity()<br><br>
+
+441.6666666666667 km/hour is the speed of the car to reach Ipil from Zamboanga City in 30 minutes.<br><br><br>
+
+12)Solving speed, distance and time through invoking dictionaries.<br><br>
+cars_speed = {'Honda' : 100, 'Toyota' : 120, 'Mitsubishi' : 110, 'Ford' : 210, 'Bentley' : 185, 'BMW' : 240, 'Mercedes Benz' : 265, 'Rolls Royce' : 320}<br>
+distance = {'Ipil' : 132.5, 'Diplahan' : 200.5, 'Pagadian' : 267.5}<br>
+time = {'slow' : 3, 'medium' : 2.5, 'med_fast' : 2, 'fast' : 1.5, 'veryfast' : 1, 'sonic' : .30}<br><br>
+#speed = disance /time<br><br>
+class Vintage:<br>
+    def velocity(self):<br>
+     x = distance['Ipil']<br>
+     y = time['sonic']<br>
+     speed = x / y<br>
+     print(speed)<br><br>
+
+search = Vintage()<br>
+search.velocity()<br><br>
+
+#Solving the distance<br>
+#d = s * t<br><br>
+
+class Solution:<br><br>
+    def expanse(self):<br>
+        self.a = a = cars_speed['Honda']<br>
+        self.b = b = time['slow']<br>
+        d = a * b<br>
+        print(d)<br><br>
+
+calculate = Solution()<br>
+calculate.expanse()<br><br>
+
+#Solving for time<br>
+#t = d / s<br><br>
+
+class Clarification:<br>
+    def timetravel(self):<br>
+        self.e = e = distance['Pagadian']<br>
+        self.f = f = cars_speed['Honda']<br>
+        time = e / f<br>
+        print(time)<br><br>
+
+solve = Clarification()<br>
+solve.timetravel()<br><br><br>
+
+
+441.6666666666667 is the speed to arive in Ipil From Zamboanga in 30 minutes.<br>
+300 the distance<br>
+2.675 hours to travel from Zamboanga City to Pagadian dependent from the speed of the car.<br><br><br>
+13)A simple program of  if and elif statements.<br><br>
+class Imelda:<br>
+    def travel(self):<br><br>
+        print('Good day to you Madame Imelda! Where do you want to spend your vacation? ')<br>
+        place = input()<br>
+        if place == 'Hong Kong':<br><br>
+            print('So you are surely going to spend your ill gotten wealth for your selfish desires.')<br><br>
+        elif place == 'Macau':<br><br>
+            print("Gambling people's taxes means bad luck! You will absolutely lose.")<br><br>
+        elif place == 'Beijing':<br><br>
+            print('So you want to go to bed with the uncircumcised Chinese man.Perhaps, you want to acquire a fake communism of Mamao. ')<br><br><br>
+
+
+
+quest = Imelda()<br>
+quest.travel()<br><br><br>
+
+14)Simple def __init__()<br><br>
+class Week:<br>
+    def  __init__(self,monday,tuesday):<br><br>
+        self.monday = monday<br>
+        self.tuesday = tuesday<br><br>
+
+a = Week('Rainy days and mondays always get me down.', 'Same old shitty tuesday.')<br><br>
+print(a.monday)<br>
+print(a.tuesday)<br><br>
+Rainy days and mondays always get me down.<br>
+Same old shitty tuesday.<br>
+
+
+  </p>
+</div><br><br>
+
+<div id="footer">
+  <div>
+    <h3>Contact Us:
+    <p>poeticgurion90@gmail.com<br>
+      This is a DIGITAL TUTORIAL BY :<br>
+      AVI GABRIELLE BEN PANSENSOY
+    </p></h3>
+    </div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
